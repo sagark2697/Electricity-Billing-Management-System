@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Test45">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="32" width="700" height="688"/>
+    </constraints>
+    <properties>
+      <minimumSize width="700" height="400"/>
+      <preferredSize width="800" height="800"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="9772a" layout-manager="BorderLayout" hgap="11" vgap="11">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <minimumSize width="250" height="400"/>
+          <preferredSize width="300" height="400"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="cc829">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <alignmentX value="1.0"/>
+              <preferredSize width="330" height="200"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ad9" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <margin top="0" left="20" bottom="0" right="20"/>
+                  <minimumSize width="250" height="11"/>
+                  <rows value="10"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="cecb6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties>
+          <preferredSize width="84" height="200"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7f22a" class="javax.swing.JButton" binding="execute_button">
+            <constraints/>
+            <properties>
+              <text value="Execute"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4af0e" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties>
+          <preferredSize width="120" height="30"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fe59d" class="javax.swing.JLabel" binding="label_one">
+            <constraints border-constraint="West"/>
+            <properties>
+              <font name="Arial" size="18" style="1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="10"/>
+              <minimumSize width="124" height="22"/>
+              <preferredSize width="200" height="20"/>
+              <text value="Write Query"/>
+              <verifyInputWhenFocusTarget value="false"/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="83de" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties>
+          <minimumSize width="20" height="300"/>
+          <preferredSize width="100" height="300"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
